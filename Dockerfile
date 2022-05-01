@@ -1,7 +1,7 @@
 # FROM cm2network/steamcmd:latest
 FROM ubuntu:latest
 
-# Mount the dominions 5 game files as a volume at /dom5
+# Mount the dominions 5 game files as a volume at /dom5 
 VOLUME ["/dom5"]
 
 # Mount license file as a volume
